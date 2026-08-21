@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ringGradNav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c1552e"/><stop offset="50%" stop-color="#b8862f"/><stop offset="100%" stop-color="#1f4d38"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="96" fill="url(#ringGradNav)"/>
+  <circle cx="100" cy="100" r="85" fill="#faf5ea"/>
+  <g stroke="#b8862f" stroke-width="3" stroke-linecap="round">
+    <line x1="100" y1="44" x2="100" y2="34"/><line x1="119" y1="49" x2="126" y2="41"/><line x1="81" y1="49" x2="74" y2="41"/>
+  </g>
+  <g fill="#1f4d38">
+    <circle cx="100" cy="58" r="4"/>
+    <path d="M96,62 L104,62 L101.5,71 L98.5,71 Z"/>
+    <path d="M100,68 L115,85 L85,85 Z"/>
+    <path d="M82,85 L118,85 L124,101 L76,101 Z"/>
+    <path d="M74,101 L126,101 L133,119 L67,119 Z"/>
+    <rect x="80" y="119" width="40" height="30" rx="1"/>
+    <path d="M91,149 L91,128 A9,9 0 0 1 109,128 L109,149 Z" fill="#faf5ea"/>
+  </g>
+</svg>
